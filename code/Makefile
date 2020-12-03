@@ -10,12 +10,10 @@
 @
 @ Objetivo del programa:
 @    Automatizar la compilación de hola mundo.
-# Makefile
 
-all: holamundo
-holamundo: holamundo.o 
+#Makefile
+all:
   as -o holamundo.o holamundo.s
-holamundo.o: holamundo.s 
   ld -o holamundo holamundo.o
   
 clean:
