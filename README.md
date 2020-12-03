@@ -38,9 +38,6 @@ all:
   
 clean:
   rm -vf holamundo *.o
-  
-clean:
-  rm -vf holamundo *.o
 ```
 ![](images/p1.jpg)  
 
