@@ -2,7 +2,7 @@
 
 ### Voy a mostrar la ejecución de un programa, en este caso holamundo.s, dentro de la imagen de Alpine Linux 64 bits
 ### holamundo.s: https://github.com/Luis-Alonso18/AlpineLinux/blob/main/code/holamundo.s
-```bash
+```s
 .data
 
 /* Segmento de Datos: define el mensaje y calcula el tramaño de la cadena. */
