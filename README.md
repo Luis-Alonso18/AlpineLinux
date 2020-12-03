@@ -32,11 +32,12 @@ _start:
 ### Makefile: https://github.com/Luis-Alonso18/AlpineLinux/blob/main/code/Makefile  
 ```makefile
 #Makefile
-all: holamundo
-holamundo: holamundo.o 
+all:
   as -o holamundo.o holamundo.s
-holamundo.o: holamundo.s 
   ld -o holamundo holamundo.o
+  
+clean:
+  rm -vf holamundo *.o
   
 clean:
   rm -vf holamundo *.o
