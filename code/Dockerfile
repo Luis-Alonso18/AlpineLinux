@@ -60,7 +60,7 @@ RUN echo 'Personalizando el Git Account..💨'
 RUN git config --global user.name "Luis-Alonso18"
 RUN git config --global user.email luis.alonso18@tectijuana.edu.mx
 RUN git config --global core.editor nano
-
+RUN wget -q -O- https://github.com/hugsy/gef/raw/master/scripts/gef.sh | sh
 
 
 # CMD ["wget https://raw.githubusercontent.com/tectijuana/interfaz/master/docker/dockerlogo.sh"]
