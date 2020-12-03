@@ -30,7 +30,7 @@ _start:
 
 ### Iniciamos compilando el programa con ayuda del Makefile
 ### Makefile: https://github.com/Luis-Alonso18/AlpineLinux/blob/main/code/Makefile  
-```bash
+```makefile
 #Makefile
 all: holamundo
 holamundo: holamundo.o 
